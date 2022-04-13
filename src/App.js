@@ -82,7 +82,7 @@ function App() {
     let content = null;
     let contextControl = null;
     if (mode === 'WELCOME') {
-        content = <Article title="Welcome" body="Hello, WEB"></Article>
+        content = <Article title="Welcome" body="Web page"></Article>
     } else if (mode === 'READ') {
         let title, body = null;
         for (let i = 0; i < topics.length; i++) {
